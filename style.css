@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+   width: 80%;
+   border: 1px solid #ccc; 
+   margin: 0 auto;
+   padding: 20px;
+}
+#pokemon-list{
+
+}
+#pokemon-list .item{
+    display: flex;
+    background: #efefef;
+    margin-bottom: 2px;
+    justify-content: space-around;
+}
+#pokemon-list .item .info{
+    padding: 0 20px;
+}
+#pokemon-list .item .info p:last-child{
+    font-size: 12px;
+}
+#pokemon-list .item img{
+    width: 300px;
+}
