@@ -19,7 +19,7 @@
         <div class="info">
             <h3>이름 : ${data[i].name}</h3>
             <p>타입 : ${data[i].type}</p>
-            <p>설명 : ${data[i].desc}</p> 
+            <p>${data[i].desc}</p> 
         </div>
         `;
         //console.log(itemEl)
@@ -36,6 +36,7 @@
     showpokemon(6);
     showpokemon(7);
     showpokemon(8);
+    showpokemon(9);
 
     /*  for (var i = 0; i < data.length; i++) {
       const itemEl = document.createElement("div");
